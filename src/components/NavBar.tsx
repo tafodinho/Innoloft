@@ -27,7 +27,10 @@ export default function NavBar() {
           </div>
           <div className="nav">
             <div className="nav-items flex flex-wrap items-center text-white">
-              <BsChatDots size={16} className="mr-[20px]" />
+              <Link href="/product">
+                <span>Product</span>
+              </Link>
+              <BsChatDots size={16} className="mr-[20px] ml-[20px]" />
               <div className="contents">
                 <span className="mr-[3px]">EN</span>
                 <BsChevronDown size={16} />

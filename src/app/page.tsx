@@ -32,9 +32,9 @@ export default function Home() {
     <div className="">
       <NavBar />
       <Link href={{ pathname: "/product", query: { productId: "this way" } }}>
-        <span className="px-2 py-1 bg-blue-900 border border-solid border-blue-700 mt-20 text-white rounded-lg">
+        {/* <span className="px-2 py-1 bg-blue-900 border border-solid border-blue-700 mt-20 text-white rounded-lg">
           Product
-        </span>
+        </span> */}
       </Link>
     </div>
   );
